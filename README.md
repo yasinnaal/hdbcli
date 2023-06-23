@@ -45,6 +45,11 @@ Lastly, run:
 setup.py install
 ```
 
+For HANA tenant databases, use the port number 3**NN**13 (where NN is the SAP instance number - e.g. 30013).
+
+For HANA system databases in a multitenant system, the port number is 3**NN**13.
+
+For HANA single-tenant databases, the port number is 3**NN**15.
 
 ```
 from hdbcli import dbapi

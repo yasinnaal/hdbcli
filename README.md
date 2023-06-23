@@ -1,3 +1,3 @@
-# sap-python
+# hdbcli
 
 Introducing hdbcli SAP HANA Python Client

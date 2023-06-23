@@ -10,12 +10,39 @@ The Python Database API Specification v2.0 (PEP 249) defines a set of methods th
 ######  you can use the Python driver to connect to an SAP HANA database.
 Install the Python driver into your local Python environment by using the pip installer so that you can use the Python driver to connect to an SAP HANA database.
 
-## Prerequisites
+# Prerequisites
 You have run the SAP HANA client install.
 
 # Procedure
 1) If you have multiple Python environments, then activate the Python environment where you want to install the Python driver. If you don’t have multiple Python environments, then ignore this step.
 2) Run the install:
+
+
+## Microsoft Windows	
+
+pip install
+```
+pip install "C:\Program Files\SAP\hdbclient\hdbcli-N.N.N.zip"
+```
+
+easy_install
+```
+easy_install "C:\Program Files\SAP\hdbclient\hdbcli-N.N.N.zip"
+```
+
+disutils installer
+
+Unzip hdbcli-N.N.N.zip into a directory, then run:
+```
+cd hdbcli-N.N.N
+```
+
+Lastly, run:
+
+```
+setup.py install
+```
+   
 
 ## UNIX, Linux, and macOS
 Use one of the following install methods:
@@ -60,31 +87,6 @@ conn = dbapi.connect(
     password="<password>"
 )
 cursor = conn.cursor()
-```
-
-## Microsoft Windows	
-
-pip install
-```
-pip install "C:\Program Files\SAP\hdbclient\hdbcli-N.N.N.zip"
-```
-
-easy_install
-```
-easy_install "C:\Program Files\SAP\hdbclient\hdbcli-N.N.N.zip"
-```
-
-disutils installer
-
-Unzip hdbcli-N.N.N.zip into a directory, then run:
-```
-cd hdbcli-N.N.N
-```
-
-Lastly, run:
-
-```
-setup.py install
 ```
 
 [SAP Note 3136015](https://help.sap.com/docs/link-disclaimer?site=https://launchpad.support.sap.com/#/notes/3136015)

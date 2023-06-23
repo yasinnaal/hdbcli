@@ -15,7 +15,7 @@ You have run the SAP HANA client install.
 
 ## Procedure
 1) If you have multiple Python environments, then activate the Python environment where you want to install the Python driver. If you don’t have multiple Python environments, then ignore this step.
-2) 2) Run the install:
+2) Run the install:
 
 #### UNIX, Linux, and macOS
 Use one of the following install methods:

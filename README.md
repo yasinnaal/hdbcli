@@ -11,6 +11,10 @@ The Python Database API Specification v2.0 (PEP 249) defines a set of methods th
 ###### use the Python driver to connect to an SAP HANA database.
 Install the Python driver into your local Python environment by using the pip installer so that you can use the Python driver to connect to an SAP HANA database.
 
+# Getting Started
+
+Install via ```pip install hdbcli``` or install manually via the HANA Client Install
+
 # Prerequisites
 You have run the SAP HANA client install.
 

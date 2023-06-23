@@ -1,6 +1,7 @@
 # Introducing hdbcli SAP HANA Python Client
+###### Connecting SAP HANA DB using Python
 
-##### Connecting SAP HANA DB using Python
+![](https://github.com/yasinnaal/hdbcli/blob/main/doc-img/sap-logo.png)
 
 The SAP HANA client supports Python 3.4 and later and Python 2.7.
 

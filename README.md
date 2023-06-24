@@ -103,9 +103,10 @@ References:
 
 [SAP Note 3136015](https://help.sap.com/docs/link-disclaimer?site=https://launchpad.support.sap.com/#/notes/3136015)
 
-License: Other/Proprietary License (SAP DEVELOPER LICENSE AGREEMENT)
 
-Thanks.
+## License
+Other/Proprietary License (SAP DEVELOPER LICENSE AGREEMENT)
+
 
 
 

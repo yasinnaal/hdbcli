@@ -52,7 +52,6 @@ Lastly, run:
 setup.py install
 ```
    
-
 ## UNIX, Linux, and macOS
 Use one of the following install methods:
 

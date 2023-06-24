@@ -97,7 +97,7 @@ conn = dbapi.connect(
 cursor = conn.cursor()
 ```
 
-References:
+## References
 
 [Python hdbcli](https://pypi.org/project/hdbcli/)
 
